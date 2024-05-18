@@ -66,7 +66,7 @@ function App() {
           />
         ) : imageUrl != "" ? (
           <img
-            className="w-[500px] h-[500px] rounded-lg duration-500 transition-all"
+            className="w-[400px] h-[400px] rounded-lg duration-500 transition-all"
             src={imageUrl}
             alt="Generating Image from AI"
           />
